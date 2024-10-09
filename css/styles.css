@@ -38,8 +38,8 @@ img {display: block; max-width: 100%; height: auto;}
 .logoheader .logo-color {color: #2E2F42;}   
 
 .navmain {
-    display: flex; align-items: center;}
-.navlink {list-style: none; display: flex; gap: 40px; margin-right: 332px;}
+    display: flex; align-items: center; margin-right: auto;}
+.navlink {list-style: none; display: flex; gap: 40px; }
 .navlink .navi:hover, .navlink .navi:focus {
     text-decoration: underline; color: #404BBF;}
 .navi {line-height: 1.5; letter-spacing: 0.02em; font-weight: 500; color: #2E2F42; padding: 24px 0; display: block;}
@@ -52,10 +52,19 @@ img {display: block; max-width: 100%; height: auto;}
 /*button section 1*/
 .section-main-title {
     background-color: #2e2f42; 
+    background-image: linear-gradient (
+         rgba(46, 47, 66, 0.7),
+         rgba(46, 47, 66, 0.7)), 
+    url(/images/imageback.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 1440px;
+    margin: 0 auto;
     align-items: center; padding: 188px 0;}
-.main-title { display: flex;
+.main-title { 
     font-size: 56px;
-    line-height: 1.07; padding-bottom: 48px; max-width: 496px;
+    line-height: 1.07; margin-bottom: 48px; max-width: 496px;
     text-align: center; margin-left: auto; margin-right: auto;
     letter-spacing: 0.02em;
     color: #ffffff;}
@@ -97,7 +106,7 @@ clip: rect(0 0 0 0); overflow: hidden;}
     text-transform: capitalize; color:#2e2f42; margin-bottom: 72px;}
 .ourteam-list {list-style: none; display: flex; flex-wrap: wrap; gap: 24px; }
 .ourteam-list .staff {width: calc((100% - 72px) / 4);}
-.staff {background-color: #FFFFFF;display: flex;
+.staff {background-color: #FFFFFF;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -108,7 +117,6 @@ clip: rect(0 0 0 0); overflow: hidden;}
     line-height: 1.2; letter-spacing: 0.02em;
     margin-bottom: 8px; color: #2e2f42; text-align: center;}
 .staff-p {line-height: 1.5; letter-spacing: 0.02em; text-align: center;} 
-.staff .card {padding-bottom: 32px;}
 
 /*section 4*/
 
@@ -121,11 +129,11 @@ clip: rect(0 0 0 0); overflow: hidden;}
 .portfolio-block {width: 360px;}
 .portfolio-title {
     font-weight: 500; font-size: 20px; line-height: 1.2; letter-spacing: 0.02em; color: #2e2f42;
-padding-top: 32px; padding-right: 16px; padding-left: 16px; margin-bottom: 8px;}
+    margin-bottom: 8px;}
 .portfolio-p {
     line-height: 1.5; letter-spacing: 0.02em;padding-top:8px;padding-bottom: 32px;
-        padding-right: 16px;
-        padding-left: 16px; }
+        
+         }
 
 /*footer*/
 
