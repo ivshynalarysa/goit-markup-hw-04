@@ -37,7 +37,8 @@ img {display: block; max-width: 100%; height: auto;}
     font-family: "Raleway", sans-serif; font-weight: 700; 
     font-size: 18px;line-height: 1.17; letter-spacing: 0.03em; 
     text-transform: uppercase;color: #4d5ae5;
-    margin-right: 76px;}
+    margin-right: 76px; 
+    position: relative;}
 .logoheader .logo-color {color: #2E2F42;}   
 
 .navmain {
