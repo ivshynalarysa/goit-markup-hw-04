@@ -38,7 +38,7 @@ img {display: block; max-width: 100%; height: auto;}
     font-size: 18px;line-height: 1.17; letter-spacing: 0.03em; 
     text-transform: uppercase;color: #4d5ae5;
     margin-right: 76px; 
-    position: relative;}
+    }
 .logoheader .logo-color {color: #2E2F42;}   
 
 .navmain {
@@ -46,12 +46,16 @@ img {display: block; max-width: 100%; height: auto;}
 .navlink {list-style: none; display: flex; gap: 40px; }
 .navlink .navi:hover, .navlink .navi:focus {
     text-decoration: underline; color: #404BBF;}
-.navi {line-height: 1.5; letter-spacing: 0.02em; font-weight: 500; color: #2E2F42; padding: 24px 0; display: block;}
+.navi {line-height: 1.5; letter-spacing: 0.02em; font-weight: 500;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); color: #2E2F42; padding: 24px 0; display: block;}
+.navi-studio { position: relative; color: #404bbf;}
 
+.navi-studio::after {position: absolute; content:  ""; width: 100%; 
+    background-color: #404bbf; border-radius: 2px; top: 0; bottom: -1px; height: 4px; }
 .address {font-style: normal;}
 .address-list {display: flex; gap: 40px; }
 .link-address:hover, .link-address:focus {color: #404BBF;}
-.link-address {line-height: 1.5; letter-spacing: 0.02em; color: #434455; }
+.link-address {line-height: 1.5; letter-spacing: 0.02em; color: #434455; transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); }
 
 /*button section 1*/
 .section-main-title {
