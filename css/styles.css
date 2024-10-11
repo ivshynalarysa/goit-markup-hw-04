@@ -51,7 +51,7 @@ img {display: block; max-width: 100%; height: auto;}
 .navi-studio { position: relative; color: #404bbf;}
 
 .navi-studio::after {position: absolute; content:  ""; width: 100%; 
-    background-color: #404bbf; border-radius: 2px; top: 0; bottom: -1px; height: 4px; }
+    background-color: #404bbf; border-radius: 2px; left: 0; bottom: -1px; height: 4px; }
 .address {font-style: normal;}
 .address-list {display: flex; gap: 40px; }
 .link-address:hover, .link-address:focus {color: #404BBF;}
